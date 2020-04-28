@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
+          <b> Poverty Correlations</b>
+          <p>Poverty and obesity have a postive correlation, signifying that the greater the percentage of poverty the greater the percentage of obesity. 
+            Poverty and smoking also has a positive relationship, in that the greater the percentage of poverty the greate the percentage of smokes will likely be.
+          Poverty and lack of healthcare are strongly, positively related as well. Thus, those below the poverty line have a greater chance of developing bad behavioural habits, 
+        such as obesity and smoking. Also because of living in poverty they are more likely to lack the means to afford healthcare.</p>
+            <b> Age Correlations</b>
+          <p>Age and obesity have somewhat of a positive relationship, however most of the points do tend to congregate towards the middle of the plot indicating a weaker correlation
+            between median age and percent obesity. Age and smoking have a slightly stronger positive relationship signifying that as people get older they tend to smoke more. Age and lack of healthcare
+          has a negative correlation meaning that as people age they tend to have more healthcare. This makes sense considering that older people tend to utilize the benefits of their healthcare
+        with more frequency due to their more fragile state when compared to those who are younger.</p>
+            <b> Income Correlations</b>
+          <p>Household income and obesity have a negative correlation, the greater the income the more likely that obesity will be less. Healthy food options are often
+            more expensive than cheap meals, such as drive thru meals therefore those with smaller income may choose to consume cheaper, unhealthy options. Income and smoking also 
+            has a negative relationship. Household income and lacking healthcare tend to be negatively correlated as well, signifying that those with lower income tend to have a greater chance
+            of not having healthcare. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
